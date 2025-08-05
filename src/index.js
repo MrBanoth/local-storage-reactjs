@@ -6,6 +6,7 @@ import {Routes,Route,BrowserRouter} from 'react-router-dom';
 import Login from './login';
 import Signup from './signup';
 import Home from './home';
+import Payment from './payment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
                     <Route path="/" element={<Home />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/payment" element={<Payment />} />
                   </Routes>
                   </BrowserRouter>
   </React.StrictMode>
